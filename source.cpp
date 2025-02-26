@@ -11,7 +11,7 @@ int main()
     SetConsoleOutputCP(1251);
     setlocale(LC_ALL, "RU");
 
-    int a(0), b(0);
+    double a(0), b(0);
 
     cout << "¬ведите число a: ";
     cin >> a;
