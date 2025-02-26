@@ -5,6 +5,8 @@
 #include <windows.h>
 using namespace std;
 
+double division(double, double);
+
 int main()
 {
     SetConsoleCP(1251);
@@ -20,7 +22,14 @@ int main()
     cin >> b;
 
     cout << "a + b = " << a + b << endl;
-    cout << "a / b = " << a / b << endl;
+    cout << "a / b = " << division(a, b) << endl;
     
     return 0;
+}
+
+double division(double a, double b)
+{
+    if (b == 0) return 0;
+
+    return a / b;
 }
