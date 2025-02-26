@@ -25,7 +25,7 @@ int main()
     cout
         << "a + b = " << a + b << endl
         << "a * b = " << multiplications(a, b) << endl
-        << "a * b = " << multiplications(a, b) << endl;
+        << "a * b = " << division(a, b) << endl;
 
     return 0;
 }
