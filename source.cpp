@@ -6,6 +6,7 @@
 using namespace std;
 
 double multiplications(double, double);
+double division(double, double);
 
 int main()
 {
@@ -21,8 +22,10 @@ int main()
     cout << "¬ведите число b: ";
     cin >> b;
 
-    cout << "a + b = " << a + b << endl;
-    cout << "a * b = " << multiplications(a, b) << endl;
+    cout
+        << "a + b = " << a + b << endl
+        << "a * b = " << multiplications(a, b) << endl
+        << "a * b = " << multiplications(a, b) << endl;
 
     return 0;
 }
@@ -30,4 +33,11 @@ int main()
 double multiplications(double a, double b)
 {
     return a * b;
+}
+
+double division(double a, double b)
+{
+    if (b == 0) return 0;
+
+    return a / b;
 }
