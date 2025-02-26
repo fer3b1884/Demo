@@ -20,6 +20,7 @@ int main()
     cin >> b;
 
     cout << "a + b = " << a + b << endl;
+    cout << "a * b = " << a * b << endl;
 
     return 0;
 }
